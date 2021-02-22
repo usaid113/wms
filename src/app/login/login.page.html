@@ -1,0 +1,56 @@
+<ion-content style="--ion-background-color:linear-gradient(to bottom, #ec1d24 40%, #e45b5b 120%);">
+  <ion-grid fixed>
+    <ion-row style="margin-top: 10vh;">
+      <ion-col size="2">
+
+      </ion-col>
+      <ion-col size="8" class="ion-text-center">
+        <img style="border-radius: 20px;" src="assets/logo.png" alt="">
+      </ion-col>
+      <ion-col size="2">
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center ion-padding">
+
+        <span style="color: white;font-size: 6vw;">GOODS RETURN</span>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" class="ion-padding-horizontal">
+
+        <ion-item style="--background: white;" lines="none">
+          <ion-label>Username</ion-label>
+          <ion-input type="email" name="username" [(ngModel)]="username"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-padding-horizontal">
+
+        <ion-item style="--background: white;" lines="none">
+          <ion-label>Password</ion-label>
+          <ion-input type="password" name="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" class="ion-text-center">
+        <ion-button color="primary" (click)="login()">
+          Submit
+        </ion-button>
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center">
+
+        <span style="color: white;font-size: 4vw;">V1.9.3</span>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
